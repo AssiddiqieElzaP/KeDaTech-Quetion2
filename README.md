@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Website ERP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website ini merupakan Sebuah startup ERP untuk
+memudahkan seorang pengusaha dalam mencatat setiap barang
+yang keluar masuk dan mencatat setiap keuntungan yang
+mereka dapatkan setiap harinya.
 
-## Available Scripts
+## Deskripsi
 
-In the project directory, you can run:
+Terdapat beberapa fitur atau tier untuk pelanggan / costumer
 
-### `npm start`
+## Fitur
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- TIER 1 / Basic
+- TIER 2 / Business
+- TIER 3 / Entrepreneur
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Teknologi yang Digunakan
 
-### `npm test`
+- React.js : Digunakan karena mempermudah penulisan kode JavaScript, serta meningkatkan performa dan memaksimalkan SEO aplikasi (Jika terus dikembangkan).
+- React Router Dom : Dengan menggunakan React Router, kita dapat memisahkan logika routing dari logika komponen yang jika terus dikembangkan kita akan tetap mudah dalam mengatur halaman-halaman yang ada.
+- SASS : Membantu kita dalam menghemat waktu dalam pembuatan css karena dapat mengurangi pengulangan dalam CSS.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Struktur Folder
 
-### `npm run build`
+Dalam proyek ini, kita mengikuti struktur folder berikut:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **assets**: Folder ini berisi aset seperti gambar, video, atau file lain yang digunakan dalam proyek.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **components**: Folder ini berisi komponen React yang digunakan dalam proyek. Komponen ini dapat digunakan secara berulang dan terorganisir dengan baik.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **pages**: Folder ini berisi halaman React yang digunakan dalam proyek. Setiap halaman biasanya berkorespondensi dengan rute yang berbeda menggunakan React Router Dom.
